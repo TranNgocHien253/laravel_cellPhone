@@ -24,8 +24,11 @@ Sau đó dùng tiếp terminal hoặc cmder gõ lệnh tiếp tục (Nhớ gõ p
 Kiểm tra xem có file .env chưa, nếu chưa thì copy từ file .env.example vào sửa lại tên là project ở dòng thứ 14 (DB_DATABASE)
 Để kiểm tra database thì cần phải có xampp, wamp. Bật localhost lên rồi vào phpMyAdmin tạo database mới tên project
 Rồi gõ các lệnh sau mỗi khi thay đổi code: 
+
   php artisan route:clear 
+  
   php artisan route:cache
+  
 Sau đó là gõ các lệnh: php artisan optimize (lưu các thay đổi) Chạy các table:
 
   php artisan migrate (chạy bảng); 
