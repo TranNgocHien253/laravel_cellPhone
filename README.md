@@ -33,8 +33,8 @@ Rồi gõ các lệnh sau mỗi khi thay đổi code:
 
     php artisan route:clear 
 
+&
 
-  
     php artisan route:cache
   
 Sau đó là gõ các lệnh: php artisan optimize (lưu các thay đổi) Chạy các table:
