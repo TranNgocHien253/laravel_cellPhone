@@ -32,6 +32,8 @@ Kiểm tra xem có file .env chưa, nếu chưa thì copy từ file .env.example
 Rồi gõ các lệnh sau mỗi khi thay đổi code: 
 
     php artisan route:clear 
+
+
   
     php artisan route:cache
   
